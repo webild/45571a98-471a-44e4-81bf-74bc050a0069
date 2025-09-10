@@ -6,6 +6,7 @@ import CtaAbout from '@/components/sections/layouts/about/CtaAbout';
 import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
 import PatternTokenomics from '@/components/sections/layouts/tokenomics/PatternTokenomics';
 import FooterLogoEmphasisBackgroundGradient from '@/components/footer/FooterLogoEmphasisBackgroundGradient';
+import { DollarSign, Users } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -37,9 +38,9 @@ export default function Home() {
 
       <div id="tokenomics" data-section="tokenomics">
         <PatternTokenomics title="Tokenomics Overview" description="Explore the key stats of FunMemecoin." kpiItems={[
-          { value: "1 Million", description: "Total Supply", icon: "DollarSign" },
-          { value: "500K", description: "Market Cap", icon: "DollarSign" },
-          { value: "100K", description: "Holders", icon: "Users" }
+          { value: "1 Million", description: "Total Supply", icon: DollarSign },
+          { value: "500K", description: "Market Cap", icon: DollarSign },
+          { value: "100K", description: "Holders", icon: Users }
         ]} />
       </div>
 
