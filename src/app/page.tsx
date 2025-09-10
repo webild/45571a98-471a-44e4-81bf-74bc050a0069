@@ -29,9 +29,9 @@ export default function Home() {
 
       <div id="how-to-buy" data-section="how-to-buy">
         <HowToBuy3D title="How to Buy FunMemecoin" steps={[
-          { title: "Step 1", description: "Create a wallet and fund it with crypto.", position: "left", isCenter: false },
-          { title: "Step 2", description: "Connect your wallet to the exchange.", position: "center", isCenter: true },
-          { title: "Step 3", description: "Buy FunMemecoin and join the community.", position: "right", isCenter: false }
+          { title: "Step 1", description: "Create a wallet and fund it with crypto.", image: "/images/step1.jpg", position: "left", isCenter: false },
+          { title: "Step 2", description: "Connect your wallet to the exchange.", image: "/images/step2.jpg", position: "center", isCenter: true },
+          { title: "Step 3", description: "Buy FunMemecoin and join the community.", image: "/images/step3.jpg", position: "right", isCenter: false }
         ]} />
       </div>
 
