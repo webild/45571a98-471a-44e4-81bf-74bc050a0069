@@ -14,13 +14,6 @@ export default function Home() {
         logoSrc="/images/logo.svg"
         logoAlt="FunMemecoin Logo"
         leftButtonText="Join the Fun!"
-        navItems={[
-          { name: 'Hero', id: 'hero' },
-          { name: 'About', id: 'about' },
-          { name: 'How to Buy', id: 'how-to-buy' },
-          { name: 'Tokenomics', id: 'tokenomics' },
-          { name: 'Footer', id: 'footer' }
-        ]}
       />
 
       <div id="hero" data-section="hero">
@@ -44,7 +37,7 @@ export default function Home() {
 
       <div id="tokenomics" data-section="tokenomics">
         <PatternTokenomics title="Tokenomics Overview" description="Explore the key stats of FunMemecoin." kpiItems={[
-          { value: "1 Million", description: "Total Supply", icon: "Coin" },
+          { value: "1 Million", description: "Total Supply", icon: "DollarSign" },
           { value: "500K", description: "Market Cap", icon: "DollarSign" },
           { value: "100K", description: "Holders", icon: "Users" }
         ]} />
